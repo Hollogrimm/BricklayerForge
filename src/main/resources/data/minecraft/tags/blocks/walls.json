@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "bricklayer:white_brick_wall",
+    "bricklayer:orange_brick_wall",
+    "bricklayer:magenta_brick_wall",
+    "bricklayer:light_blue_brick_wall",
+    "bricklayer:yellow_brick_wall",
+    "bricklayer:lime_brick_wall",
+    "bricklayer:pink_brick_wall",
+    "bricklayer:gray_brick_wall",
+    "bricklayer:light_gray_brick_wall",
+    "bricklayer:cyan_brick_wall",
+    "bricklayer:purple_brick_wall",
+    "bricklayer:blue_brick_wall",
+    "bricklayer:brown_brick_wall",
+    "bricklayer:green_brick_wall",
+    "bricklayer:red_brick_wall",
+    "bricklayer:black_brick_wall"
+  ]
+}
