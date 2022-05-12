@@ -1,6 +1,7 @@
 package net.hollogrimm.bricklayer;
 
 import com.mojang.logging.LogUtils;
+import net.hollogrimm.bricklayer.block.ModBlocks;
 import net.hollogrimm.bricklayer.item.ModItems;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -34,6 +35,7 @@ public class Bricklayer
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 
