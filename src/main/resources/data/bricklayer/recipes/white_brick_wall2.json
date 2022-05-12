@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "bricklayer:white_bricks"
+  },
+  "result": "bricklayer:white_brick_wall",
+  "count": 1
+}

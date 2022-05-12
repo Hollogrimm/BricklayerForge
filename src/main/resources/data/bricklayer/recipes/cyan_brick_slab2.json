@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "bricklayer:cyan_bricks"
+  },
+  "result": "bricklayer:cyan_brick_slab",
+  "count": 2
+}
