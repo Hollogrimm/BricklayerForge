@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "bricklayer:block/pink_bricks",
+    "top": "bricklayer:block/pink_bricks",
+    "side": "bricklayer:block/pink_bricks"
+  }
+}
