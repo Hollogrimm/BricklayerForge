@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "bricklayer:black_brick"
+    }
+  },
+  "result": {
+    "item": "bricklayer:black_bricks",
+    "count": 4
+  }
+}

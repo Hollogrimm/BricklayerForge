@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "bricklayer:gray_bricks"
+    }
+  },
+  "result": {
+    "item": "bricklayer:gray_brick_stairs",
+    "count": 6
+  }
+}

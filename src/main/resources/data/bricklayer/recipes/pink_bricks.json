@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "bricklayer:pink_brick"
+    }
+  },
+  "result": {
+    "item": "bricklayer:pink_bricks",
+    "count": 4
+  }
+}

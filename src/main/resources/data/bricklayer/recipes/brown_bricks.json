@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "bricklayer:brown_brick"
+    }
+  },
+  "result": {
+    "item": "bricklayer:brown_bricks",
+    "count": 4
+  }
+}
