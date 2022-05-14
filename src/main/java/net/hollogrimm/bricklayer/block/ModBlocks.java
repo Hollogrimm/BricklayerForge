@@ -23,7 +23,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Bricklayer.MOD_ID);
 
-    // Basic Bricks
+    // Dyed Bricks
 
     public static final RegistryObject<Block> WHITE_BRICKS = registerBlock("white_bricks",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
@@ -409,6 +409,422 @@ public class ModBlocks {
             ModCreativeModeTab.BRICKLAYER_BLOCKS);
 
     public static final RegistryObject<Block> BLACK_BRICK_WALL = registerBlock("black_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    // Large Bricks
+
+    public static final RegistryObject<Block> LARGE_BRICKS = registerBlock("large_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_WHITE_BRICKS = registerBlock("large_white_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_ORANGE_BRICKS = registerBlock("large_orange_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_MAGENTA_BRICKS = registerBlock("large_magenta_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_LIGHT_BLUE_BRICKS = registerBlock("large_light_blue_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_YELLOW_BRICKS = registerBlock("large_yellow_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_LIME_BRICKS = registerBlock("large_lime_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_PINK_BRICKS = registerBlock("large_pink_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_GRAY_BRICKS = registerBlock("large_gray_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_LIGHT_GRAY_BRICKS = registerBlock("large_light_gray_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_CYAN_BRICKS = registerBlock("large_cyan_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_PURPLE_BRICKS = registerBlock("large_purple_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_BLUE_BRICKS = registerBlock("large_blue_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_BROWN_BRICKS = registerBlock("large_brown_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_GREEN_BRICKS = registerBlock("large_green_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_RED_BRICKS = registerBlock("large_red_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_BLACK_BRICKS = registerBlock("large_black_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()), ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    // Large Brick Stairs
+
+    public static final RegistryObject<Block> LARGE_BRICK_STAIRS = registerBlock("large_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.WHITE_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE)
+                            .strength(2f, 6f)
+                            .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_WHITE_BRICK_STAIRS = registerBlock("large_white_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.WHITE_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE)
+                            .strength(2f, 6f)
+                            .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_ORANGE_BRICK_STAIRS = registerBlock("large_orange_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.ORANGE_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE)
+                            .strength(2f, 6f)
+                            .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_MAGENTA_BRICK_STAIRS = registerBlock("large_magenta_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.MAGENTA_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE)
+                            .strength(2f, 6f)
+                            .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_LIGHT_BLUE_BRICK_STAIRS = registerBlock("large_light_blue_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.LIGHT_BLUE_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE)
+                            .strength(2f, 6f)
+                            .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_YELLOW_BRICK_STAIRS = registerBlock("large_yellow_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.YELLOW_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE)
+                            .strength(2f, 6f)
+                            .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_LIME_BRICK_STAIRS = registerBlock("large_lime_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.LIME_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE)
+                            .strength(2f, 6f)
+                            .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_PINK_BRICK_STAIRS = registerBlock("large_pink_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.PINK_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE)
+                            .strength(2f, 6f)
+                            .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_GRAY_BRICK_STAIRS = registerBlock("large_gray_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.GRAY_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE)
+                            .strength(2f, 6f)
+                            .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_LIGHT_GRAY_BRICK_STAIRS = registerBlock("large_light_gray_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.LIGHT_GRAY_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE)
+                            .strength(2f, 6f)
+                            .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_CYAN_BRICK_STAIRS = registerBlock("large_cyan_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.CYAN_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE)
+                            .strength(2f, 6f)
+                            .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_PURPLE_BRICK_STAIRS = registerBlock("large_purple_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.PURPLE_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE)
+                            .strength(2f, 6f)
+                            .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_BLUE_BRICK_STAIRS = registerBlock("large_blue_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.BLUE_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE)
+                            .strength(2f, 6f)
+                            .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_BROWN_BRICK_STAIRS = registerBlock("large_brown_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.BROWN_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE)
+                            .strength(2f, 6f)
+                            .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_GREEN_BRICK_STAIRS = registerBlock("large_green_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.GREEN_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE)
+                            .strength(2f, 6f)
+                            .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_RED_BRICK_STAIRS = registerBlock("large_red_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.RED_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE)
+                            .strength(2f, 6f)
+                            .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_BLACK_BRICK_STAIRS = registerBlock("large_black_brick_stairs",
+            () -> new StairBlock(() -> ModBlocks.BLACK_BRICKS.get().defaultBlockState(),
+                    BlockBehaviour.Properties.of(Material.STONE)
+                            .strength(2f, 6f)
+                            .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    // Large Dyed Brick Slabs
+
+    public static final RegistryObject<Block> LARGE_BRICK_SLAB = registerBlock("large_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_WHITE_BRICK_SLAB = registerBlock("large_white_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_ORANGE_BRICK_SLAB = registerBlock("large_orange_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_MAGENTA_BRICK_SLAB = registerBlock("large_magenta_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_LIGHT_BLUE_BRICK_SLAB = registerBlock("large_light_blue_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_YELLOW_BRICK_SLAB = registerBlock("large_yellow_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_LIME_BRICK_SLAB = registerBlock("large_lime_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_PINK_BRICK_SLAB = registerBlock("large_pink_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_GRAY_BRICK_SLAB = registerBlock("large_gray_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_LIGHT_GRAY_BRICK_SLAB = registerBlock("large_light_gray_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_CYAN_BRICK_SLAB = registerBlock("large_cyan_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_PURPLE_BRICK_SLAB = registerBlock("large_purple_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_BLUE_BRICK_SLAB = registerBlock("large_blue_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_BROWN_BRICK_SLAB = registerBlock("large_brown_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_GREEN_BRICK_SLAB = registerBlock("large_green_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_RED_BRICK_SLAB = registerBlock("large_red_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_BLACK_BRICK_SLAB = registerBlock("large_black_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    // Large Dyed Brick Walls
+
+    public static final RegistryObject<Block> LARGE_BRICK_WALL = registerBlock("large_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_WHITE_BRICK_WALL = registerBlock("large_white_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_ORANGE_BRICK_WALL = registerBlock("large_orange_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_MAGENTA_BRICK_WALL = registerBlock("large_magenta_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_LIGHT_BLUE_BRICK_WALL = registerBlock("large_light_blue_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_YELLOW_BRICK_WALL = registerBlock("large_yellow_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_LIME_BRICK_WALL = registerBlock("large_lime_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_PINK_BRICK_WALL = registerBlock("large_pink_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_GRAY_BRICK_WALL = registerBlock("large_gray_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_LIGHT_GRAY_BRICK_WALL = registerBlock("large_light_gray_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_CYAN_BRICK_WALL = registerBlock("large_cyan_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_PURPLE_BRICK_WALL = registerBlock("large_purple_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_BLUE_BRICK_WALL = registerBlock("large_blue_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_BROWN_BRICK_WALL = registerBlock("large_brown_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_GREEN_BRICK_WALL = registerBlock("large_green_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_RED_BRICK_WALL = registerBlock("large_red_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2f, 6f)
+                    .requiresCorrectToolForDrops()),
+            ModCreativeModeTab.BRICKLAYER_BLOCKS);
+
+    public static final RegistryObject<Block> LARGE_BLACK_BRICK_WALL = registerBlock("large_black_brick_wall",
             () -> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(2f, 6f)
                     .requiresCorrectToolForDrops()),

@@ -1,15 +1,20 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
-      "item": "minecraft:yellow_dye"
-    },
-    {
-      "item": "minecraft:brick"
-    }
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#B#",
+    " # "
   ],
+  "key": {
+    "#": {
+      "item": "minecraft:brick"
+    },
+    "B": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
   "result": {
     "item": "bricklayer:yellow_brick",
-    "count": 1
+    "count": 4
   }
 }

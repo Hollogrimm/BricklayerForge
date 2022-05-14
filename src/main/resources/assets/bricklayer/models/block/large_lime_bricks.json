@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bricklayer:block/lime_bricks_large"
+  }
+}

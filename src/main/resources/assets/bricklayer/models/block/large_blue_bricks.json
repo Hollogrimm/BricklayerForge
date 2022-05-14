@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bricklayer:block/blue_bricks_large"
+  }
+}
