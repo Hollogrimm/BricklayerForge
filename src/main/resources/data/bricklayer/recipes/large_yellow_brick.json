@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#B#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "bricklayer:large_brick"
+    },
+    "B": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "item": "bricklayer:large_yellow_brick",
+    "count": 4
+  }
+}

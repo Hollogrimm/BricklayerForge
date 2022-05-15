@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "bricklayer:block/gray_bricks_large"
+  }
+}

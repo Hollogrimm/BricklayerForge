@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "bricklayer:block/magenta_bricks_large",
+    "top": "bricklayer:block/magenta_bricks_large",
+    "side": "bricklayer:block/magenta_bricks_large"
+  }
+}

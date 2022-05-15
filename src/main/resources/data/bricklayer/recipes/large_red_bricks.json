@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "bricklayer:large_red_brick"
+    }
+  },
+  "result": {
+    "item": "bricklayer:large_red_bricks",
+    "count": 4
+  }
+}

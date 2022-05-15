@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "bricklayer:block/brown_bricks_large",
+    "top": "bricklayer:block/brown_bricks_large",
+    "side": "bricklayer:block/brown_bricks_large"
+  }
+}

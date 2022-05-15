@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "bricklayer:block/yellow_bricks_large",
+    "top": "bricklayer:block/yellow_bricks_large",
+    "side": "bricklayer:block/yellow_bricks_large"
+  }
+}
