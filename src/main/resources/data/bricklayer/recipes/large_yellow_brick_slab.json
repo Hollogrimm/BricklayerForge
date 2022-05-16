@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "bricklayer:large_yellow_bricks"
+    }
+  },
+  "result": {
+    "item": "bricklayer:large_yellow_brick_slab",
+    "count": 6
+  }
+}

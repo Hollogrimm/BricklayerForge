@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "bricklayer:large_cyan_bricks"
+  },
+  "result": "bricklayer:large_cyan_brick_stairs",
+  "count": 1
+}

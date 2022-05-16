@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingwhiteient": {
+    "item": "bricklayer:large_white_bricks"
+  },
+  "result": "bricklayer:large_white_brick_slab",
+  "count": 2
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "bricklayer:large_white_bricks"
+    }
+  },
+  "result": {
+    "item": "bricklayer:large_white_brick_stairs",
+    "count": 6
+  }
+}

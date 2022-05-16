@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "bricklayer:large_purple_bricks"
+  },
+  "result": "bricklayer:large_purple_brick_stairs",
+  "count": 1
+}
