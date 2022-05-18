@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "bricklayer:large_carved_bricks"
+  },
+  "result": "bricklayer:large_carved_brick_slab",
+  "count": 2
+}

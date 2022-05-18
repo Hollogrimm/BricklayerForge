@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "bricklayer:block/painted_cyan_bricks",
+    "top": "bricklayer:block/painted_cyan_bricks",
+    "side": "bricklayer:block/painted_cyan_bricks"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "bricklayer:carved_bricks"
+  },
+  "result": "bricklayer:carved_brick_stairs",
+  "count": 1
+}

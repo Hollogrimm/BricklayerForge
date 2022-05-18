@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "bricklayer:large_painted_pink_bricks"
+  },
+  "result": "bricklayer:large_painted_pink_brick_slab",
+  "count": 2
+}

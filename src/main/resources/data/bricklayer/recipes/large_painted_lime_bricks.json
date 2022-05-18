@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#B#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "tag": "bricklayer:large_paintable_bricks"
+    },
+    "B": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "result": {
+    "item": "bricklayer:large_painted_lime_bricks",
+    "count": 4
+  }
+}

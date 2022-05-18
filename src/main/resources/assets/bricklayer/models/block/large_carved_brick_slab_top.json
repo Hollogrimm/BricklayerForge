@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "bricklayer:block/large_carved_bricks",
+    "top": "bricklayer:block/large_carved_bricks",
+    "side": "bricklayer:block/large_carved_bricks"
+  }
+}

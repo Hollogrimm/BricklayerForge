@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bricks",
+    "bricklayer:white_bricks",
+    "bricklayer:orange_bricks",
+    "bricklayer:magenta_bricks",
+    "bricklayer:light_blue_bricks",
+    "bricklayer:yellow_bricks",
+    "bricklayer:lime_bricks",
+    "bricklayer:pink_bricks",
+    "bricklayer:gray_bricks",
+    "bricklayer:light_gray_bricks",
+    "bricklayer:cyan_bricks",
+    "bricklayer:purple_bricks",
+    "bricklayer:blue_bricks",
+    "bricklayer:brown_bricks",
+    "bricklayer:green_bricks",
+    "bricklayer:red_bricks",
+    "bricklayer:black_bricks",
+    "bricklayer:carved_bricks"
+  ]
+}

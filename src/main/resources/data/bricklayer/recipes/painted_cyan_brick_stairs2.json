@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "bricklayer:painted_cyan_bricks"
+  },
+  "result": "bricklayer:painted_cyan_brick_stairs",
+  "count": 1
+}

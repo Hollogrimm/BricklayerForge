@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "bricklayer:painted_green_bricks"
+  },
+  "result": "bricklayer:painted_green_brick_slab",
+  "count": 2
+}

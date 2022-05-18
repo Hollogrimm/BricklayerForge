@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "bricklayer:block/large_carved_brick_slab"
+    },
+    "type=double": {
+      "model": "bricklayer:block/large_carved_bricks"
+    },
+    "type=top": {
+      "model": "bricklayer:block/large_carved_brick_slab_top"
+    }
+  }
+}

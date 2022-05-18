@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "bricklayer:large_bricks",
+    "bricklayer:large_white_bricks",
+    "bricklayer:large_orange_bricks",
+    "bricklayer:large_magenta_bricks",
+    "bricklayer:large_light_blue_bricks",
+    "bricklayer:large_yellow_bricks",
+    "bricklayer:large_lime_bricks",
+    "bricklayer:large_pink_bricks",
+    "bricklayer:large_gray_bricks",
+    "bricklayer:large_light_gray_bricks",
+    "bricklayer:large_cyan_bricks",
+    "bricklayer:large_purple_bricks",
+    "bricklayer:large_blue_bricks",
+    "bricklayer:large_brown_bricks",
+    "bricklayer:large_green_bricks",
+    "bricklayer:large_red_bricks",
+    "bricklayer:large_black_bricks",
+    "bricklayer:large_carved_bricks"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "bricklayer:painted_black_bricks"
+  },
+  "result": "bricklayer:painted_black_brick_stairs",
+  "count": 1
+}

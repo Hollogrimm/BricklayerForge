@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "bricklayer:block/large_painted_light_gray_brick_slab"
+    },
+    "type=double": {
+      "model": "bricklayer:block/large_painted_light_gray_bricks"
+    },
+    "type=top": {
+      "model": "bricklayer:block/large_painted_light_gray_brick_slab_top"
+    }
+  }
+}

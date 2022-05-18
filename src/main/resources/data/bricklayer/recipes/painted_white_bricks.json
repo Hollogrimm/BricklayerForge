@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#B#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "tag": "bricklayer:paintable_bricks"
+    },
+    "B": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "result": {
+    "item": "bricklayer:painted_white_bricks",
+    "count": 4
+  }
+}
